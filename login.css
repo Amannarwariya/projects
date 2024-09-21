@@ -1,0 +1,86 @@
+.loginPage {
+  background: linear-gradient(o.4turn, rgb(6, 49, 102), rgb(22, 218, 232));
+  display: flex;
+  justify-content: center;
+}
+.loginForm {
+  width: 60%;
+  height: 75vh;
+  background-color: #ffffff4d;
+}
+.blank {
+  width: 100%;
+  height: 7rem;
+}
+.loginHead {
+  border: 5px solid white;
+  text-align: center;
+}
+.loginForm .loginHead h1 {
+  font-size: 2rem;
+  font-family: "Gruppo", sans-serif;
+  color: rgb(6, 49, 102);
+  word-spacing: 1.5rem;
+}
+.staffLogin {
+  margin: 2rem 2rem;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: rgb(6, 49, 102);
+}
+.staffDetails {
+  margin-top: 2rem;
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+}
+.loginBody {
+  text-align: center;
+}
+#staffId {
+  position: relative;
+  left: 0rem;
+  outline: none;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 600;
+  width: 40%;
+  height: 1.5rem;
+  color: black;
+  background-color: #c5ebe8;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 2px solid #5df0e3;
+  letter-spacing: 1px;
+}
+#staffPassword {
+  position: relative;
+  left: 0rem;
+  outline: none;
+  font-family: "Gruppo", sans-serif;
+  font-weight: 600;
+  width: 40%;
+  height: 1.5rem;
+  color: black;
+  background-color: #c5ebe8;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 2px solid #5df0e3;
+  letter-spacing: 1px;
+}
+.loginBody form button {
+  height: 2.5rem;
+  width: 8rem;
+  margin: 2rem;
+  color: rgb(6, 49, 102);
+  border: 2px solid rgb(6, 49, 102);
+  border-radius: 5px;
+  font-family: "Gruppo", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.loginBody form button:hover {
+  color: white;
+  background-color: rgb(6, 49, 102);
+  border: 2px solid white;
+}

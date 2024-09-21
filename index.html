@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blossom Hospitals</title>
+    <link rel="icon" href="Capture.icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Rubik:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        
+            <div class="main-navbar">
+                <div class="main-first">
+                    <div class="logo">
+                        <img src="Capture.JPG" alt="">
+                    </div>
+                    <div class="diff-bar"></div>
+                    <div class="name">
+                        <div><P>BLOSSOM HOSPITALS</P></div>
+                        <div id="hide"><p><a href="#"><i class="fa-solid fa-comments"></i> Hello there, ask me for help.</a></p></div>
+                    </div>
+                </div>
+                <div class="main-options1">
+                    <input type="checkbox" id="hamburger">
+                    <div class="main-options">
+                        <div class="hamburger">
+                            <label for="hamburger"><i class="fa-regular fa-circle-xmark" style="color: #fff;"></i></label>
+                        </div>
+                        <div class="home">
+                            <div class="home-icon"><i class="fa-solid fa-file-medical"></i></i></div>
+                            <div class="home-name"><a href="patientlogin.html">Patient Record</a></div>
+                        </div>
+                        <!-- <div class="home">
+                            <div class="home-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="home-name"><a href="">Contacts</a></div>
+                        </div> -->
+                        <div class="home">
+                            <div class="home-icon"><i class="fa-solid fa-book-open-reader"></i></i></div>
+                            <div class="home-name"><a href="">About us</a></div>
+                        </div>
+                    
+                        <div class="home">
+                            <div class="home-icon"><i class="fa-regular fa-circle-user"></i></i></div>
+                            <div class="home-name"><a href="login.html">Log in</a></div>
+                        </div>
+                    
+                    
+                    </div>
+                    <div class="hamburger">
+                        
+                        <label for="hamburger" id="checkbox"><i class="fa-solid fa-bars"></i></label>
+                    
+                    
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+            <div class="blank"></div>
+            <div class="searchbar">
+                <form action="submit">
+                    <input type="text" id="search" name="search" value="" placeholder="Find hospitals in your city!" class="inputsearch">
+                    <button>Search</button>
+                </form>
+            </div>
+
+            <div class="photoform">
+                <div class="changingphoto"></div>
+                <div class="bookingBox" id="bookingBox">
+                    <div class="form">
+                        <center><h2>Make an oppointment</h2></center>
+                        <form action="submit">
+                            <input type="text" class="hover" placeholder="Enter your name">
+                            <select name="state" id="city" class="hover" placeholder="Choose your state">
+                                <option value="0">Choose your state</option>
+                                <option value="">Andhra Pradesh(Amravati)</option>
+                                <option value="">Arunachal Pradesh(Itanagar)</option>
+                                <option value="">Assam(Dispur)</option>
+                                <option value="">Bihar(Patna)</option>
+                                <option value="">Chhattisgarh(Raipur)</option>
+                                <option value="">Goa(Panaji)</option>
+                                <option value="">Gujrat(Gandhinagar)</option>
+                                <option value="">Haryana(Chandigarh)</option>
+                                <option value="">Himachal Pradesh(Shimla)</option>
+                                <option value="">Jharkhand(Ranchi)</option>
+                                <option value="">Karnataka(Bangalore)</option>
+                                <option value="">Kerala(Thiruvananthapuram)</option>
+                                <option value="">Madhya Pradesh(Bhopal)</option>
+                                <option value="">Maharashtra(Mumbai)</option>
+                                <option value="">Manipur(Imphal)</option>
+                                <option value="">Meghalaya(Shillong)</option>
+                                <option value="">Mizoram(Aizawl)</option>
+                                <option value="">Nagaland(Kohima)</option>
+                                <option value="">Odisha(Bhubaneshwar)</option>
+                                <option value="">Punjab(Chandigarh)</option>
+                                <option value="">Rajasthan(Jaipur)</option>
+                                <option value="">Sikkim(Gangtok)</option>
+                                <option value="">Tamil Nadu(Chennai)</option>
+                                <option value="">Telangana(Hyderabad)</option>
+                                <option value="">Tripura(Agartala)</option>
+                                <option value="">Uttarakhand(Dehradun)</option>
+                                <option value="">Uttar Pradesh(Lucknow)</option>
+                                <option value="">Andaman & Nicobar Islands(Port Blair)</option>
+                                <option value="">Chandigarh(Chandigarh)</option>
+                                <option value="">Dadra & Nagar Haveli & Daman & Diu(Daman)</option>
+                                <option value="">The Govt. of NCT of Delhi(Delhi)</option>
+                                <option value="">Jammu & Kashmir(Srinagar-S,Jammu-W)</option>
+                                <option value="">Ladakh(Leh)</option>
+                                <option value="">Lakshadweep(Kavaratti)</option>
+                                <option value="">Puducherry(Puducherry)</option>
+                            </select>
+                            <div class="phone">
+                                <input type="text" class="hover2" placeholder="Mobile number">
+                                <button type="" class="hover1">Get otp</button>
+                            </div>
+                            <button type="submit" class="hover1">Book an oppointment</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="expertblock">
+                <div class="heading">
+                    <center><p>Experties in Fields</p></center>
+                </div>
+                <div class="symbols">
+                    <div class="icons">
+                        <a href="#cardiology"><img src="./firld icons/1.jpeg" alt="">
+                        <p>Cardiology</p></a>
+                    </div>
+                    <div class="icons">
+                        <a href="#nephrology"><img src="./firld icons/2.jpg" alt="">
+                        <p>Nephrology</p></a>
+                    </div>
+                    <div class="icons">
+                        <a href="#orthopedic"><img src="./firld icons/3.jpg" alt="">
+                        <p>Orthopaedics</p></a>
+                    </div>
+                    <div class="icons">
+                        <a href="#neurology"><img src="./firld icons/4.jpg" alt="">
+                        <p>Neurology</p></a>
+                    </div>
+                    <div class="icons">
+                        <a href="#gastro"><img src="./firld icons/5.jpg" alt="">
+                        <p>Gastroenterology</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="groupCards-head">
+                <div class="heading">
+                    <center><p style="color: #fff;" id="safehead">We Are Covid Safe</p></center>
+                </div>
+                <div class="headPara">
+                    <p>While these challenging times have brought many changes, at Blossom Hospitals one thing remained the same – Our commitment to the safety of our patients, their loved ones and our staff. We have established a safe environment and were among the first in the country to implement a range of rigorous protocols, which includes the following:</p>
+                </div>
+            </div>
+            <div class="groupCards">
+                <div class="Gcards">
+                    
+                    <div class="Gicon">
+                        <i class="fa-solid fa-hand-holding-droplet"></i>
+                    </div>
+                    <div class="Gdata">
+                        <h3>Extra Sanitation Methods</h3>
+                        <p>Disinfecting all areas and frequently touched surfaces continuously</p>
+                    </div>
+                </div>
+                <div class="Gcards">
+                    <div class="Gicon">
+                        <i class="fa-solid fa-people-arrows"></i>
+                    </div>
+                    <div class="Gdata">
+                        <h3>Social Distancing</h3>
+                        <p>Following social distancing protocols by implementing limited visitations, new waiting room protocols and other measures so you can safely practice social distancing and keep yourself and others safe.</p>
+                    </div>
+                </div>
+                <div class="Gcards">
+                    <div class="Gicon">
+                        <i class="fa-solid fa-head-side-mask"></i>
+                    </div>
+                    <div class="Gdata">
+                        <h3>Face Mask</h3>
+                        <p>Mandating all patients and staff to wear face masks.</p>
+                    </div>
+                </div>
+                <div class="Gcards">
+                    <div class="Gicon">
+                        <i class="fa-solid fa-hospital"></i>
+                    </div>
+                    <div class="Gdata">
+                        <h3>Screening At The Entrance</h3>
+                        <p>Screening of all visitors, including patients upon arrival Screening all patients for COVID-19 symptoms upon arrival.</p>
+                    </div>
+                </div>
+                <div class="Gcards">
+                    <div class="Gicon">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </div>
+                    <div class="Gdata">
+                        <h3>Testing Our Staff Regularly</h3>
+                        <p>Testing our staff regularly for COVID-19</p>
+                    </div>
+                </div>
+                <div class="Gcards">
+                    <div class="Gicon">
+                        <i class="fa-solid fa-bed-pulse"></i>
+                    </div>
+                    <div class="Gdata">
+                        <h3>Separate Waiting & Treatment Area</h3>
+                        <p>Your safety is our priority. We implemented strict isolation practices to separate COVID-19-positive and symptomatic patients from others.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="infoCards" id="cardiology">
+                <div class="cards">
+                    <div class="card">
+                        <div class="image">
+                            <img src="cardImages/cardiology.jpg" alt="">
+                        </div>
+                        <div class="discription">
+                            <div class="heading">
+                                <p>Cardiology</p>
+                            </div>
+                            <div class="dicr">
+                                <p>The Blossom Heart Institutes are regarded as one of the best heart hospitals in India, performing a multitude of treatments and procedures in cardiology and cardiothoracic surgery. The scorecard shows an unmatched record of over 1,52,000 cardiac and cardiothoracic surgeries.
+
+                                We have vast experience in the most complicated coronary artery bypass surgery, surgery for all types of valvular heart diseases, paediatric heart surgery, adult and paediatric heart transplantation with success rates comparable to international standards.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="infoCards" id="orthopedic">
+                <div class="cards" style="background: linear-gradient(0.125turn,rgb(22, 218, 232) ,rgb(6, 49, 102));">
+                    <div class="card" style="flex-direction: row-reverse;">
+                        <div class="image">
+                            <img src="cardImages/orthopedic.jpg" alt="">
+                        </div>
+                        <div class="discription" style="background: linear-gradient(0.125turn, #fff,rgb(97, 36, 210));">
+                            <div class="heading">
+                                <p>Orthopedics</p>
+                            </div>
+                            <div class="dicr">
+                                <p>The Blossom Institutes of Orthopaedics is regarded as one of the best & top orthopaedics hospitals in India with a legacy of innovation and excellence. The Institutes are at the forefront in offering the latest in Orthopedic treatments and Orthopedic surgical advancements in India on par with the best centres in the world.
+
+                                    Blossom Hospitals offers key & best orthopedic surgeries and procedures in India. We perform bone and joint replacement surgeries which include the most current Arthroscopic and Reconstructive techniques.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="infoCards">
+                <div class="cards" >
+                    <div class="card" >
+                        <div class="image">
+                            <img src="cardImages/robotic.jpg" alt="">
+                        </div>
+                        <div class="discription" >
+                            <div class="heading">
+                                <p>Robotic Surgery</p>
+                            </div>
+                            <div class="dicr">
+                                <p>Robotic Surgery is a branch of medical science that uses a robotic arm controlled with a computer by a surgeon. Small tools attached to the robotic arm are then used to perform the surgery by copying the hand movements of the surgeon as he controls the robotic arm. With this method being more convenient for the surgeon due to a perfect view of the area under surgery, Blossom’s Robotic Surgery Department is equipped with a skilled team of the best Surgeons. Blossom Hospitals is your one-stop destination to book the finest Robot-assisted Surgeons in your town.
+
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="infoCards" id="nephrology">
+                <div class="cards" style="background: linear-gradient(0.125turn,rgb(22, 218, 232) ,rgb(6, 49, 102));">
+                    <div class="card" style="flex-direction: row-reverse;">
+                        <div class="image">
+                            <img src="cardImages/nephro.jpg" alt="">
+                        </div>
+                        <div class="discription" style="background: linear-gradient(0.125turn, #fff,rgb(97, 36, 210));">
+                            <div class="heading">
+                                <p>Nephrology
+                                </p>
+                            </div>
+                            <div class="dicr">
+                                <p>Nephrology is a branch of medical science that deals with the diagnosis and treatment of disorders related to the kidney. Nephrology is a centre of excellence at Apollo and sees more than 10,000 patients every year. Blossom houses some of the very best specialists in the world who specialize in management of kidney failure, dialysis, electrolyte disturbance, diabetic nephropathy, hypertension to kidney transplant. The transplant program is very active. Blossom Hospitals is your one-stop destination to book the best Nephrologists in your town.
+
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="infoCards" id="neurology">
+                <div class="cards" >
+                    <div class="card" >
+                        <div class="image">
+                            <img src="cardImages/nurology.jpg" alt="">
+                        </div>
+                        <div class="discription" >
+                            <div class="heading">
+                                <p>Neurology</p>
+                            </div>
+                            <div class="dicr">
+                                <p>Neurology is a centre of excellence at Blossom Hospitals and deals with diagnosis and treatment of disorders of the nervous system. The Blossom Hospital Neuro departments are equipped with the best team and state of the art facilities like Neuro radiology, sleep lab, Intensive care units etc. Our Neuro team takes care of more than 300 variety of problems like aneurisms, dementia, Alzheimer’s, epilepsy, cerebro vascular diseases, headache, multiple sclerosis, stroke, Neuro oncology, neurophysiology, sleep neurology. The Blossom stroke program is a protocol based approach and is benchmarked with the best institutions in the world. Taking the best of care for your nervous system is an aspect whose importance cannot be underlined enough, so leave it to the Blossom eDoc.in portal to find the best neurologists for any challenge that befalls your nerves!
+
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="infoCards">
+                <div class="cards" style="background: linear-gradient(0.125turn,rgb(22, 218, 232) ,rgb(6, 49, 102));">
+                    <div class="card" style="flex-direction: row-reverse;">
+                        <div class="image">
+                            <img src="cardImages/urology.jpg" alt="">
+                        </div>
+                        <div class="discription" style="background: linear-gradient(0.125turn, #fff,rgb(97, 36, 210));">
+                            <div class="heading">
+                                <p>Urology
+                                </p>
+                            </div>
+                            <div class="dicr">
+                                <p>Urology deals with diagnosis and treatment of diseases predominantly of male reproductive organs and the urinary tract of males and females. Blossom Hospitals have state-of-the-art Urology facilities including minimally invasive surgeries, robotics and laparoscopy techniques, fiber-optic endoscopy, and lithotripsy units. An urologist deals with diseases such as Incontinence, prostate enlargement, kidney stones, prostate cancer, penile fractures, urinary infections, and STDs, just to name a few. The department works closely with uro-oncology, uro gynecology, nephrology, colorectal surgery, andrology to offer a more systematic and collaborative approach to treatment. So don’t hesitate and walk right into Blossom Hospitals’ to let our urologists fix you up just fine. Blossom Hospitals offers you the best way of being discreet, no longer will getting an appointment become an awkward experience!
+
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="infoCards" id="gastro">
+                <div class="cards" >
+                    <div class="card" >
+                        <div class="image">
+                            <img src="cardImages/gastro.jpg" alt="">
+                        </div>
+                        <div class="discription" >
+                            <div class="heading">
+                                <p>Gastroenterology</p>
+                            </div>
+                            <div class="dicr">
+                                <p>Gastroenterology deals with the diagnosis and treatment of complications of the gastrointestinal tract, i.e. the stomach and small intestine. A gastroenterologist deals with patients suffering from gastroenteritis, showing symptoms of vomiting, diarrhea, abdominal pain and cramping. With Blossom Hospitals’ qualified bench strength of Gastroenterologists who are the best in their field, finest treatment is just around the corner. Experience a smoother medical experience for booking an appointment or finding the best gastroenterologists for world-class for your gastro-related problems at Blossom Hospitals.
+
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="infoCards">
+                <div class="cards" style="background: linear-gradient(0.125turn,rgb(22, 218, 232) ,rgb(6, 49, 102));">
+                    <div class="card" style="flex-direction: row-reverse;">
+                        <div class="image">
+                            <img src="cardImages/bariatric.jpg" alt="">
+                        </div>
+                        <div class="discription" style="background: linear-gradient(0.125turn, #fff,rgb(97, 36, 210));">
+                            <div class="heading">
+                                <p>Bariatric Surgery</p>
+                            </div>
+                            <div class="dicr">
+                                <p>Bariatric Surgery deals with weight reduction using various techniques to combat obesity. The process includes reducing the size of the stomach or removing a portion of the stomach or re-routing the small intestine. Blossom Hospitals is home to the best bariatric surgeons in the nation who are skilled in Gastrectomy and Gastroplasty among other procedures. With Blossom Hospitals, booking an appointment with the finest Bariatric Surgeons is just a click away.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="infoCards">
+                <div class="cards" >
+                    <div class="card" >
+                        <div class="image">
+                            <img src="cardImages/pulmonary.jpg" alt="">
+                        </div>
+                        <div class="discription" >
+                            <div class="heading">
+                                <p>Pulmonary</p>
+                            </div>
+                            <div class="dicr">
+                                <p>Pulmonary Medicine at Blossom Hospitals provides expertise in a broad range of diseases including asthma, COPD, critical care, cystic fibrosis, interstitial lung disease, lung cancer, neuromuscular disease, pulmonary hypertension, sarcoidosis, and sleep medicine. The smoke cessation clinics, COPD clinics are specialized clinics which offer tailor made programs and run by a team of Pulmonologist and paramedical teams. Our smoke cessation programs are the best in the country with huge success rate and are implemented by many corporate companies for their employees. Blossom Hospitals is your one-stop destination to book the finest Pulmonologist in your town.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footOne">
+                    <p>&#169; Blossom Hospital Enterprise Ltd. , All Rights Reserved</p>
+                </div>
+                <div class="footTwo">
+                    <a href="#bookingBox">Book An Oppointment</a>
+                </div>
+            </div>
+    </div>
+    
+</body>
+</html>

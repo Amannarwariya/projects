@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blossom Hospital-Working Desk</title>
+    <link rel="icon" href="Capture.icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gruppo&family=Rubik:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="workingDesk.css">
+</head>
+<body>
+    <div class="main">
+        <div class="main-navbar">
+            <div class="main-first">
+                <div class="logo">
+                    <img src="Capture.JPG" alt="">
+                </div>
+                <div class="diff-bar"></div>
+                <div class="name">
+                    <div><P>BLOSSOM HOSPITALS</P></div>
+                    <div id="hide"><p><a href="#"><i class="fa-solid fa-comments"></i> Hello there, ask me for help.</a></p></div>
+                </div>
+            </div>
+            <div class="main-options1">
+                <input type="checkbox" id="hamburger">
+                <div class="main-options">
+                    <div class="hamburger">
+                        <label for="hamburger"><i class="fa-regular fa-circle-xmark" style="color: #fff;"></i></label>
+                    </div>
+                    <div class="home">
+                        <div class="home-icon"><i class="fa-solid fa-house"></i></div>
+                        <div class="home-name"><a href="index.html">Home</a></div>
+                    </div>
+                    <!-- <div class="home">
+                        <div class="home-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="home-name"><a href="">Contacts</a></div>
+                    </div> -->
+                    <div class="home">
+                        <div class="home-icon"><i class="fa-solid fa-book-open-reader"></i></i></div>
+                        <div class="home-name"><a href="">About us</a></div>
+                    </div>
+                
+                    <div class="home">
+                        <div class="home-icon"><i class="fa-regular fa-circle-user"></i></i></div>
+                        <div class="home-name"><a href="login.html">Log in</a></div>
+                    </div>
+                
+                
+                </div>
+                <div class="hamburger">
+                    
+                    <label for="hamburger" id="checkbox"><i class="fa-solid fa-bars"></i></label>
+                
+                
+                </div>
+                
+            </div>
+            
+            
+        </div>
+        <div class="blank"></div>
+        <div class="workingDesk">
+            
+            <div class="patientDoctor">
+                <input type="radio" id="patient" name="select">
+                <input type="radio" id="doctor" name="select">
+                <div class="PDHead">
+                    <div class="Phead">
+                        <label for="patient"><h2>Patient</h2></label>
+                    </div>
+                    <div class="Dhead">
+                        <label for="doctor"><h2>Doctor</h2></label>
+                    </div>
+                </div>
+                
+                <div class="PDbody">
+                    <div class="patient same">
+                        <div class="Pform">
+                            <form action="userinsert.php" class="patientForm" method="post">
+                                <div class="Pdetails">
+                                    <label for="PName">Patient Name :</label>
+                                    <input type="text" id="PName" name="name">
+                                </div>
+                                <div class="Pdetails">
+                                    <label for="PAge">Patient Age :</label>
+                                    <input type="number" id="PAge" name="age">
+                                </div>
+                                <div class="Pdetails">
+                                    <label for="PGender">Gender :</label>
+                                    <select name="Gender" id="PGender" placeholder="Select Gender">
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="Pdetails">
+                                    <label for="PMobile">Mobile No :</label>
+                                    <input type="text" id="PMobile" name="mob">
+                                </div>
+                                <div class="Pdetails">
+                                    <label for="PAddress">Address :</label>
+                                    <input type="text" id="PAddress" name="Address">
+                                </div>
+                                <div class="Pdetails">
+                                    <label for="PDoc">Doctor Assigned :</label>
+                                    <select name="Doctor" id="PDoc" placeholder="Select">
+                                        <option value="a">a</option>
+                                        <option value="b">b</option>
+                                        <option value="c">c</option>
+                                        <option value="d">d</option>
+                                        <option value="e">e</option>
+                                        <option value="f">f</option>
+                                        <option value="g">g</option>
+                                    </select>
+                                </div>
+                                <div class="Pdetails">
+                                    <label for="PDepart">Department :</label>
+                                    <select name="Department" id="PDepart" placeholder="Select">
+                                        <option value="p">p</option>
+                                        <option value="q">q</option>
+                                        <option value="sr">sr</option>
+                                        <option value="t">t</option>
+                                        <option value="u">u</option>
+                                        <option value="v">v</option>
+                                        <option value="x">x</option>
+                                    </select>
+                                </div>
+                                <div class="Pdetails">
+                                    <label for="PSymptoms">Symptoms :</label>
+                                    <input type="text" id="PSymptoms" name="symtoms">
+                                </div>
+                                <div class="Pdetails">
+                                    <label for="PADate">Date</label>
+                                    <input type="datetime-local" id="PADate" name="date">
+                                </div>
+                                <div class="Pdetails">
+                                    <label for="PDDate">Discharge Date :</label>
+                                    <input type="datetime-local" id="PDDate" name="ddate">
+                                </div>
+                                <div class="Pdetails">
+                                    <label for="PDuration">Stay Duration :</label>
+                                    <input type="number" id="PDuration" name="ldate">
+                                </div>
+                                <div class="Pdetails">
+                                    <label for="PCondition">Condition at Dischage :</label>
+                                    <input type="text" id="PCondition" name="condition">
+                                </div>
+                                <button type="submit" id="submitBtn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="doctor same">
+                        <div class="Dform">
+                            <form action="" class="doctorForm">
+                                <div class="Ddetails">
+                                    <label for="DName">Doctor Name :</label>
+                                    <input type="text" id="DName">
+                                </div>
+                                <div class="Ddetails">
+                                    <label for="DAge">Doctor ID :</label>
+                                    <input type="number" id="Did">
+                                </div>
+                                <div class="Ddetails">
+                                    <label for="DAge">Doctor Age :</label>
+                                    <input type="number" id="DAge">
+                                </div>
+                                <div class="Ddetails">
+                                    <label for="DGender">Gender :</label>
+                                    <select name="Gender" id="DGender" placeholder="Select Gender">
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="Ddetails">
+                                    <label for="DMobile">Mobile No :</label>
+                                    <input type="text" id="DMobile">
+                                </div>
+                                <div class="Ddetails">
+                                    <label for="DQuali">Qualifications :</label>
+                                    <input type="text" id="DQuali">
+                                </div>
+                                <div class="Ddetails">
+                                    <label for="DAddress">Address :</label>
+                                    <input type="text" id="DAddress">
+                                </div>
+                                
+                                <div class="Ddetails">
+                                    <label for=DDepart">Department :</label>
+                                    <select name="Department" id="DDepart" placeholder="Select">
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                        <option value=""></option>
+                                    </select>
+                                </div>
+                                <button type="submit" id="submitBtn">Submit</button>
+                                
+                                
+                                
+                                
+                                
+                            </form>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="select same">
+                        <div class="PDselect">
+                            <h1>Select one of the two window by clicking on them to add, delete or update the record.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="a"></div>
+        <div class="footer">
+            <div class="footOne">
+                <p>&#169; Blossom Hospital Enterprise Ltd. , All Rights Reserved</p>
+            </div>
+            <div class="footTwo">
+                <a href="#bookingBox">Book An Oppointment</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
